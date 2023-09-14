@@ -2,7 +2,7 @@ import "../Styles/NavBar.css";
 
 function NavBar() {
   return (
-    <div>
+    <div className="navBar">
         <div className='Logo'>
             <h1>LOOOOOOK</h1>
         </div>

@@ -1,3 +1,11 @@
-h1{
-    color: black;
+.navBar{
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    background-color: rgb(48, 48, 48)
 }

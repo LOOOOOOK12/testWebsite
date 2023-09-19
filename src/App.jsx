@@ -1,6 +1,8 @@
 import "./App.css";
 import Home from './Pages/Home';
 import About from "./Pages/About";
+import Contacts from "./Pages/Contacts";
+import Services from "./Pages/Services";
 import NavBar from './Components/NavBar';
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
       <NavBar/>
       <Home/>
       <About/>
+      <Contacts/>
+      <Services/>
     </div>
   )
 }

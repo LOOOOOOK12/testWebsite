@@ -2,9 +2,9 @@ import "../Styles/About.css";
 
 function About() {
   return (
-    <div className="About">
-      <h1>About</h1>
-    </div>
+      <div className="About" id="About">
+        <h1>About</h1>
+      </div>
   )
 }
 

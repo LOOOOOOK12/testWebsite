@@ -8,10 +8,10 @@ function NavBar() {
           <h1>LOOOOOOK</h1>
       </div>
         <ul className='Links'>
-          <a href=""><li>Home</li></a>
-          <a href=""><li>About us</li></a>
-          <a href=""><li>Services</li></a>
-          <a href=""><li>Contacts</li></a>
+          <a href="#Home"><li>Home</li></a>
+          <a href="#About"><li>About us</li></a>
+          <a href="#Services"><li>Services</li></a>
+          <a href="#Contacts"><li>Contacts</li></a>
         </ul> 
     </div>
   )

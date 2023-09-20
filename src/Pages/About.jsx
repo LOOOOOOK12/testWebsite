@@ -1,6 +1,10 @@
+import "../Styles/About.css";
+
 function About() {
   return (
-    <div className="About">About</div>
+    <div className="About">
+      <h1>About</h1>
+    </div>
   )
 }
 

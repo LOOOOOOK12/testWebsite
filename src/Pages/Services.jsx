@@ -1,6 +1,10 @@
+import "../Styles/Services.css";
+
 function Services() {
   return (
-    <div>Services</div>
+    <div className="Services">
+      <h1>Services</h1>
+    </div>
   )
 }
 

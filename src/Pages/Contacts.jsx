@@ -1,8 +1,10 @@
-
+import "../Styles/Contacts.css";
 
 function Contacts() {
   return (
-    <div>Contacts</div>
+    <div className="Contacts">
+      <h1>Contacts</h1>
+    </div>
   )
 }
 

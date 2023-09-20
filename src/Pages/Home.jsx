@@ -4,7 +4,7 @@ import "../Styles/Home.css";
 
 function Home() {
   return (
-    <div className="Home">
+    <div className="Home" id='Home'>
         <h1>HELLO</h1>
     </div>
   )

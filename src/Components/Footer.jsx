@@ -7,14 +7,23 @@
  function Footer() {
    return (
     <div className='Footer'>
-        <div className='Sites'>
-            <img src={facebook} alt="" />
-            <img src={instagram} alt="" />
-            <img src={github} alt="" />
-            <img src={linkedIn} alt="" />
+        <div className='left-Side'>
+            <form>
+                <input type="text" />
+                <input type="text" />
+                <button>Send Message!</button>
+            </form>
         </div>
-        <div className='text'>
-            <h1>LOBOT</h1>
+        <div className='right-Side'>
+            <div className='Sites'>
+                <img src={facebook} alt="" />
+                <img src={instagram} alt="" />
+                <img src={github} alt="" />
+                <img src={linkedIn} alt="" />
+            </div>  
+            <div className='text'>
+                <h1>LOBOT</h1>
+            </div>
         </div>
     </div>
    )

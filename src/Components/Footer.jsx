@@ -3,6 +3,7 @@
  import github from "../assets/icons8-github-50 (1).png";
  import instagram from "../assets/icons8-instagram-50.png";
  import linkedIn from "../assets/icons8-linkedin-50.png";
+ import "../Styles/Footer.css"
  
  function Footer() {
    return (
@@ -22,7 +23,7 @@
                 <img src={linkedIn} alt="" />
             </div>  
             <div className='text'>
-                <h1>LOBOT</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
             </div>
         </div>
     </div>

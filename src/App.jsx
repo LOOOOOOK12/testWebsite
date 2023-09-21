@@ -5,16 +5,18 @@ import About from "./Pages/About";
 import Contacts from "./Pages/Contacts";
 import Services from "./Pages/Services";
 import NavBar from './Components/NavBar';
+import Footer from './Components/Footer';
 
 
 function App() {
   return (
     <div className='App'>
-      <NavBar/>
-      <Home/>
-      <About/> 
-      <Services/>
-      <Contacts/>
+      <NavBar />
+      <Home />
+      <About />
+      <Services />
+      <Contacts />
+      <Footer/>
     </div>
   )
 }

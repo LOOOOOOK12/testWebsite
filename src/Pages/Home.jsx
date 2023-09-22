@@ -1,12 +1,22 @@
 import React from 'react';
 import "../Styles/Home.css";
-import BG from "../assets/pexels-arkkrapol-anantachote-1571746 (1).jpg";
+import Background from "../assets/pexels-arkkrapol-anantachote-1571746.jpg";
 
 
 function Home() {
+
   return (
-    <div className ="Home" id='Home'> 
-      <h1>HELLO</h1>      
+    <div className ="Home" id='Home' style={{
+      backgroundImage: `url(${Background})`,
+      backgroundSize: `cover`
+    }}> 
+      <div className='Container-1'>
+        <h1>Wonderful Japan!</h1>
+        <button>Let's Dive In!</button>
+      </div>
+      <div className='Container-2'>
+        <h2>Lorem ipsum dolor sit!</h2>
+      </div>        
     </div>
   )
 }

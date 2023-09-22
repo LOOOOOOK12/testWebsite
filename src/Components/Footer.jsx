@@ -17,10 +17,10 @@
         </div>
         <div className='right-Side'>
             <div className='Sites'>
-                <img src={facebook} alt="" />
-                <img src={instagram} alt="" />
-                <img src={github} alt="" />
-                <img src={linkedIn} alt="" />
+                <img src={facebook} alt="Facebook-link" />
+                <img src={instagram} alt="Instagram-link" />
+                <img src={github} alt="Github-link" />
+                <img src={linkedIn} alt="LinkedIn-link" />
             </div>  
             <div className='text'>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>

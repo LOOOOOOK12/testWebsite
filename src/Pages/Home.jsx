@@ -11,7 +11,7 @@ function Home() {
       backgroundSize: `cover`
     }}> 
       <div className='Container-1'>
-        <h1>Wonderful Japan!</h1>
+        <h1>Discover Japan's captivating blend of ancient traditions and modern innovation in a land where history and technology coexist harmoniously.</h1>
         <button>Let's Dive In!</button>
       </div>
       <div className='Container-2'>

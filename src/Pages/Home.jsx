@@ -7,7 +7,7 @@ function Home() {
 
   return (
     <div className ="Home" id='Home' style={{
-      backgroundImage: `url(${Background})`,
+      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0)),url(${Background})`,
       backgroundSize: `cover`
     }}> 
       <div className='Container-1'>

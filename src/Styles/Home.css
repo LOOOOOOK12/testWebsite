@@ -2,19 +2,33 @@
     top: 5%;
     height: 100vh;
     display: flex;
+    
     align-items: center;
     justify-content: space-around;
     background-color: gray;
-    
 }
 
 .Container-1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    width: 20rem;
+}
+
+.Container-1 h1{
+    font-size: 1.1rem;
 }
 
 button{
-    padding: .5rem;
-
+    color: white;
+    padding: 1rem;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: .5rem;
 }
+
+button:hover{
+    backdrop-filter: blur(5px);
+}
+
